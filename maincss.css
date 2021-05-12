@@ -38,13 +38,20 @@ body {
   }
 
   .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
+    overflow: hidden;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    padding-top: 8px;
+    padding-bottom: 8px;
+ 
     border-radius: 0;
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    
   }
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
@@ -96,15 +103,7 @@ body {
  
 
 }
-#welcome{
-  background-color: rgba(255,255,255, 0.7);
-  border-radius: 8px;
-  padding: 10px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
+
 #spark{
   width: 120px;
   height: 120px;
@@ -141,5 +140,15 @@ body {
   
 }
 #footer{
-  background-color: #474e5d;
+  background-color: #474e5db9;
+}
+
+#welcome{
+  background-color: rgba(255,255,255, 0.7);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
 }

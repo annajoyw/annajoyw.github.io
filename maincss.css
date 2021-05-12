@@ -12,15 +12,7 @@ body {
   p {font-size: 16px;}
   
 
-  .welcome{
-    background-color: rgba(255,255,255, 0.7);
-    border-radius: 8px;
-    padding: 5px;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-  }
+
   .bg-2 { 
     background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
@@ -94,26 +86,39 @@ body {
   height: 100px;
   margin-bottom: 10px;
 }
-.sparkle{
-  width: 100px;
-  height: 100px;
-  position:absolute; left:780px; top:148px;
-}
-.sparkleB{
-  width: 80px;
-  height: 80px;
-  position:absolute; left:465px; top:360px;
-}
-.box{
 
-}
 .bg-1 { 
     
   color: #000000;
   height: 430px;
   text-align: center;
+  padding: 120px ;
+ 
+
+}
+.welcome{
+  background-color: rgba(255,255,255, 0.7);
+  border-radius: 8px;
   padding: 10px;
-  padding-top: 120px;
-
-
+ 
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+#spark{
+  width: 120px;
+  height: 120px;
+  float: right;
+}
+#spark2{
+  width: 120px;
+  height: 120px;
+  float: left;
+  -webkit-transform: scaleX(-1);
+}
+.annarow{
+  vertical-align: baseline;
+}
+.anna{
+  margin-top: 20px;
 }

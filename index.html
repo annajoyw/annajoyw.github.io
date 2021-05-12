@@ -23,13 +23,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Me</a>
+      <a class="navbar-brand" href="#home">Home</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
+        <li><a href="#target">WHO?</a></li>
+        <li><a href="#contact">CONACT ME!</a></li>
+        
       </ul>
     </div>
   </div>
@@ -39,7 +39,8 @@
 <div class="container-fluid bg-1">
   <div class="col-sm-4",><img src="assets/giphy.gif" id="spark"></div>
   <div class="col-sm-4"> 
-  
+    <a name="home"></a>
+    <a href="#home"></a>
     <div class="welcome">
       
       <h1>Howdy! I'm Anna!</h1>
@@ -185,10 +186,12 @@
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-5 text-center">    
-  <h2 class="margin">About Me</h2><br>
+  <h2 class="margin">About Anna</h2><br>
+  <a name="target"></a>
+  <a href="#target"></a>
   <div class="annarow">
     <div class="col-sm-4">
-      <h4 style="margin-top: 10px;" >Contact Me</h4>
+      <h4 style="margin-top: 10px;" >Socials</h4>
       <p>I'd love to hear from you! Feel free to check out more of my work/Reach out to me at any of the platforms below!</p>
       <div class="btn-group-vertical">
         <a href="https://github.com/annajoyw"  class="btn btn-primary" style="padding: 10px 24px;">Github</a>
@@ -198,7 +201,7 @@
     </div>
     <div class="col-sm-4"> 
       
-      <p class="anna">So who is “Anna” anyway? I’m a dreamer. On the outside, I might come off as reserved, but my inner world is vibrant and passionate. I began developing in November of 2020, after stumbling across an advertisement for Eleven Fifty. I had no interest in coding nor experience, but I also had nothing to lose. Upon diving into the course, I discovered a profound appreciation for coding. It gives me the space to exercise my critical thinking skills, use creative approches to solve problems, always learn something new, the list goes on! Besides programming, I also enjoy playing video games, skateboarding, or baking my famous chocolate chip cookies. (Hire me and I’ll bake complimentary cookies for you and your team! Or- just you, I won’t tell...)
+      <p id="anna">So who is “Anna” anyway? I’m a dreamer. On the outside, I might come off as reserved, but my inner world is vibrant and passionate. I began developing in November of 2020, after stumbling across an advertisement for Eleven Fifty. I had no interest in coding nor experience, but I also had nothing to lose. Upon diving into the course, I discovered a profound appreciation for coding. It gives me the space to exercise my critical thinking skills, use creative approches to solve problems, always learn something new, the list goes on! Besides programming, I also enjoy playing video games, skateboarding, or baking my famous chocolate chip cookies. (Hire me and I’ll bake complimentary cookies for you and your team! Or- just you, I won’t tell...)
       
       </p>
       
@@ -210,11 +213,43 @@
   </div>
 </div>
 
-<!-- Footer -->
-<footer class="container-fluid text-center">
+
+
+
+<div class="container-fluid bg-6 text-center">    
+  <h2 class="margin" id="email">Contact Me!</h2><br>
+  <a name="contact"></a>
+  <a href="#contact"></a>
+  <div class="col-sm-4"></div>
+
+  <div class="col-sm-4" id="input"> 
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mbjqglbv" method="post">
+      <fieldset id="fs-frm-inputs">
+        <label for="full-name">Full Name</label></br>
+        <input type="text" name="name" id="full-name" placeholder="First and Last" required=""></br>
+        <label for="email-address">Email Address</label></br>
+        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""></br>
+        <label for="message">Message</label></br>
+        <textarea rows="8" name="message" id="message" placeholder="" required=""></textarea></br>
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      </fieldset>
+      <input type="submit" value="Submit">
+    </form>
+    
+  </div>
+     
+  <div class="col-sm-4">
+
+  </div>
+</br>
+</div>
+
+
+<footer class="container-fluid text-center" id="footer">
   <p>Bootstrap theme made by <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
   <p>Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
 </footer>
+
 
 </body>
 </html>

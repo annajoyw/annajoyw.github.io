@@ -16,17 +16,22 @@ body {
  }
 
   .bg-2 { 
-    background-color: #474e5de1; /* Dark Blue */
-    color: #ffffff;
+    background-color: #ffffffc7; /* Dark Blue */
+    color: #000000;
     padding-bottom: 50px;
   }
   .bg-3 { 
-    background-color: #ffffffd3; /* White */
+    background-color: #ffffffc4; /* White */
     color:#000000;
-    padding-bottom: 5px;
+  
 
 
    
+  }
+  .bg-7{
+    background-color: #ffffffc9; /* White */
+    color:#000000;
+    padding-bottom: 40px;
   }
   .bg-4 { 
     background-color: #2f2f2fbd; /* Black Gray */
@@ -34,7 +39,7 @@ body {
     padding-bottom: 50px;
   }
   .bg-5{
-    background-color: #ffffffd8; /* Black Gray */
+    background-color: #ffffffc0; /* Black Gray */
     color: rgb(0, 0, 0);
     padding-bottom: 50px;
   }
